@@ -1,0 +1,12 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.1.0">
+    <proxies>
+        <proxy>
+            <id>myproxy</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>localhost</host>
+            <port>8080</port>
+            <nonProxyHosts>localhost</nonProxyHosts>
+        </proxy>
+    </proxies>
+</settings>
